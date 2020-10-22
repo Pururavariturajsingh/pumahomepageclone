@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+.nav{display: flex;flex-wrap: wrap; background-color:black;align-items: center;flex-direction: row;
+   
+}
+
+.nav img{
+    float: left;background-color: darkgray;
+}
+.left{
+    display: flex;color: honeydew;font-size: 25px;flex: 40%;
+}
+.nav a{
+    padding: 10px;flex-wrap: wrap;
+}
+
+.right {
+    display: flex;font-size: 25px;
+    color: honeydew;flex: 30%;justify-content:flex-end;
+
+}
+.right i{
+    padding: 10px;flex-wrap: wrap;
+}
+.square{
+    display: flex;flex-wrap: wrap;background-color: black;
+}
+.col6{
+    display: flex;flex-wrap: wrap;flex:50%;color: honeydew;align-items: center;justify-content: center;
+
+}
+.row12 h2{
+    display: flex;flex-wrap: wrap;
+}
+.row11 h1{display: flex;flex-wrap: wrap;
+}
+    
+.square1{
+    display: flex;flex-wrap: wrap;background-image: url("./images/backgroundsquare1.jpg"); background-repeat: no-repeat;background-size: 100% ;height:200px;margin-top: 10px;color: white;
+flex-direction: column;
+}
+
+.square2{
+    display: flex;flex-wrap: wrap;background-color: rgb(24, 164, 219);margin: 10px;
+}
+.square3{
+ display: flex;flex-wrap: wrap; flex-direction: column;text-align: center;
+}
+.smallrow{
+    display: flex;flex-wrap: wrap;justify-content: center;
+}
+.square4{
+    display:flex;flex-wrap: wrap;width: 100%;
+
+}
+.col4{
+    display: flex;flex-direction: column;justify-content: center;text-align: center;flex-wrap: wrap;width: 33.33%;
+}
+.col4 button{
+    justify-content: center;
+}
+.square5{
+    display: flex;flex-wrap: wrap;background-color: rgb(255, 187, 16);margin-top: 10px;
+}
+.col7{
+    display: flex;flex-wrap: wrap;flex:50%;color:black;align-items: center;justify-content: center;flex-direction: row;
+
+}
+.footer{
+    background-color: #181818;margin-top: 10px;
+    color: #fff;display: flex;justify-content: space-around;
+}
+.col44{
+    display: flex;flex-wrap: wrap;flex-direction: row;
+}
+.col44 li{
+    list-style-type: none;padding-left: 10px;
+}
+.col45{
+    display: flex;flex-wrap: wrap;flex-direction: row;padding-top: 60px;
+}
+.col45 li{
+    list-style-type: none;
+}
+.col46{
+    display: flex;flex-wrap: wrap;flex-direction: row;
+}
+.col46 li{
+    list-style-type: none;padding-left: 10px;
+}
+.col47{
+    display: flex;flex-wrap: wrap;flex-direction: row;padding-top: 60px;
+}
+.col47 li{
+    list-style-type: none;
+}
+.col48{
+    display: flex;flex-wrap: wrap;flex-direction: row;
+}
+.col48 li{
+    list-style-type: none;padding-left: 10px;
+}
+.nav a:hover{
+    background-color: burlywood;
+}
+.nav i:hover{
+    background-color: burlywood;
+}
